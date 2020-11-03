@@ -1,4 +1,4 @@
-# Mod-le-de-scoring
+# Modele-de-scoring
 l'objectif est de fournir un modèle fiable de détection de défaut de crédit. le modèle doit rester interprétable afin de pouvoir comprendre les mécanismes d’octroi de crédit
 
 Les données sont fournies par Home Credit, un service dédié à l'octroi de lignes de crédit (prêts) à la population non bancarisée. Prévoir si un client va ou non rembourser un prêt ou s'il a des difficultés est un besoin essentiel des entreprises. Home Credit organise ce concours sur Kaggle pour voir quels types de modèles la communauté d'apprentissage machine peut développer pour l'aider dans cette tâche.

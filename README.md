@@ -5,7 +5,7 @@ Les données sont fournies par Home Credit, un service dédié à l'octroi de li
 
 Il existe 7 sources de données différentes :
 
-    *application_train/application_test : les principales données de formation et de test avec des informations sur chaque demande de prêt auprès de Home Credit. Chaque prêt a sa propre ligne et est identifié par la caractéristique SK_ID_CURR. Les données relatives aux demandes de formation sont accompagnées de la mention TARGET indiquant 0 : le prêt a été remboursé ou 1 : le prêt n'a pas été remboursé.
+   * application_train/application_test : les principales données de formation et de test avec des informations sur chaque demande de prêt auprès de Home Credit. Chaque prêt a sa propre ligne et est identifié par la caractéristique SK_ID_CURR. Les données relatives aux demandes de formation sont accompagnées de la mention TARGET indiquant 0 : le prêt a été remboursé ou 1 : le prêt n'a pas été remboursé.
    * bureau : données concernant les crédits antérieurs du client auprès d'autres institutions financières. Chaque crédit précédent a sa propre ligne dans bureau, mais un prêt dans les données de demande peut avoir plusieurs crédits précédents.
    * bureau_balance : données mensuelles concernant les crédits précédents en bureau. Chaque ligne correspond à un mois d'un crédit antérieur, et un seul crédit antérieur peut avoir plusieurs lignes, une pour chaque mois de la durée du crédit.
    * previous_application : demandes précédentes de prêts au crédit immobilier des clients dont les données de demande contiennent des prêts. Chaque prêt actuel dans les données de demande peut avoir plusieurs prêts précédents. Chaque demande précédente comporte une ligne et est identifiée par la caractéristique SK_ID_PREV.
